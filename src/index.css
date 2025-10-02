@@ -7,6 +7,9 @@ All colors MUST be HSL.
 */
 
 @layer base {
+  html, body {
+  overflow-x: hidden;
+}
   :root {
     --background: 222 47% 4%;
     --foreground: 210 40% 98%;
