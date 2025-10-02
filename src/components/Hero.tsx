@@ -6,26 +6,26 @@ export const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden grid-pattern">
       {/* Floating Book a Call Button */}
       <Button
-        variant="hero"
-        size="xl"
-        className="
-          group fixed bottom-4 right-4 z-50 shadow-lg
-          px-4 py-2 text-sm
-          sm:px-6 sm:py-3 sm:text-base
-          md:bottom-6 md:right-6
-        "
-        onClick={() => window.open("https://cal.com/rheoreach/30min", "_blank")}
-      >
-        {/* On small screens just the phone icon */}
-        <span className="sm:hidden">
-          <Phone className="w-5 h-5" />
-        </span>
-        {/* On sm+ screens show full text */}
-        <span className="hidden sm:inline-flex items-center gap-2">
-          Book a Call
-          <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-        </span>
-      </Button>
+  variant="hero"
+  size="xl"
+  className="
+    group fixed bottom-4 right-4 z-50 shadow-lg
+    px-4 py-2 text-sm
+    sm:px-6 sm:py-3 sm:text-base
+  "
+  onClick={() => window.open("https://cal.com/rheoreach/30min", "_blank")}
+>
+  {/* On small screens just the phone icon */}
+  <span className="sm:hidden">
+    <Phone className="w-5 h-5" />
+  </span>
+  {/* On sm+ screens show full text */}
+  <span className="hidden sm:inline-flex items-center gap-2">
+    Book a Call
+    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+  </span>
+</Button>
+
 
       {/* Animated background glow */}
       <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-transparent pointer-events-none" />
