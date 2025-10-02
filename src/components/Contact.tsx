@@ -83,7 +83,7 @@ export const Contact = () => {
   <Button 
     variant="hero" 
     size="xl"
-    onClick={() => window.location.href = 'mailto:rheoreach@gmail.com'}
+    onClick={() => window.location.href = 'mailto:contact@rheoreach.com'}
   >
     Send us a Message
     <Mail className="w-5 h-5" />

@@ -1,4 +1,4 @@
-import { Zap } from "lucide-react";
+import { Zap, Instagram, Facebook, AtSign } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -22,8 +22,36 @@ export const Footer = () => {
               <p>Digital Solutions at your thumbprints.</p>
               <p className="text-primary font-medium">For You, By Us.</p>
             </div>
+
+            {/* Social Icons */}
+            <div className="flex gap-4 mt-4">
+              <a
+                href="https://www.instagram.com/rheoreach/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.facebook.com/people/Rheo-Reach/pfbid02S6knfvdeNZfAb9mbdEpa3KiRNW86GxotwJhwCBGvCKg2K8koPB4CN16MLygmAXqjl/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition"
+              >
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.threads.com/@rheoreach"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition"
+              >
+                <AtSign className="w-5 h-5" />
+              </a>
+            </div>
           </div>
-          
+
           {/* Additional Phone Numbers */}
           <div className="space-y-2 text-sm text-muted-foreground md:text-right">
             <p>Additional Contact:</p>
@@ -33,13 +61,13 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-primary/10 text-center text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} RheoReach Associates. All rights reserved.</p>
         </div>
       </div>
-      
+
       {/* Bottom gradient glow */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-32 bg-primary/5 blur-[100px] pointer-events-none" />
     </footer>
