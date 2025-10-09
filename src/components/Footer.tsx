@@ -56,8 +56,8 @@ export const Footer = () => {
           <div className="space-y-2 text-sm text-muted-foreground md:text-right">
             <p>Additional Contact:</p>
             <div className="space-y-1">
-              <p>+91 86001 29571</p>
-              <p>+91 98225 74643</p>
+              <p>+91 93593 15488</p>
+              <p>+91 95793 68573</p>
             </div>
           </div>
         </div>
