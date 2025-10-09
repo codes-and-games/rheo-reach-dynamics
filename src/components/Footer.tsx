@@ -56,12 +56,12 @@ export const Footer = () => {
           <div className="space-y-2 text-sm text-muted-foreground md:text-right">
             <p>Additional Contact:</p>
             <div className="space-y-1">
-              <p>+91 93593 15488</p>
-              <p>+91 95793 68573</p>
+              <p>+91 9359315488</p>
+              <p>+91 9579368573</p>
             </div>
           </div>
         </div>
-
+ 
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-primary/10 text-center text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} RheoReach Associates. All rights reserved.</p>
