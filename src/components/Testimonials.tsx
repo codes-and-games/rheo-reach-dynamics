@@ -32,7 +32,7 @@ const testimonials = [
 
 export const Testimonials = () => {
   return (
-    <section className="py-24 md:py-32 relative overflow-hidden">
+    <section id="testimonials" className="py-24 md:py-32 relative overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-[150px] pointer-events-none" />
       

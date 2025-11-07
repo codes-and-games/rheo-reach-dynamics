@@ -3,7 +3,7 @@ import { ArrowRight, Sparkles, Phone } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden grid-pattern">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden grid-pattern">
       {/* Floating Book a Call Button */}
       <Button
   variant="hero"

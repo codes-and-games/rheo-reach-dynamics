@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 
 export const WhoWeAre = () => {
   return (
-    <section className="py-16 md:py-20 relative">
+    <section id="team" className="py-16 md:py-20 relative">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-12 animate-fade-in">
           <h2 className="text-3xl md:text-5xl font-bold">
