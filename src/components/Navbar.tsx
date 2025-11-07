@@ -43,9 +43,9 @@ export const Navbar = () => {
     <>
       {/* Desktop & Tablet Navbar */}
       <nav
-        className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 ${
+        className={`fixed z-50 transition-all duration-300 ${
           scrolled ? "top-2" : "top-4"
-        }`}
+        } md:left-1/2 md:-translate-x-1/2 right-4 md:right-auto`}
       >
         <div
           className={`glass-card px-6 py-3 rounded-full border-primary/20 transition-all duration-300 ${
