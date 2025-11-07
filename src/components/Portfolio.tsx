@@ -51,11 +51,33 @@ const websites = [
 const graphicDesignClients = [
   {
     name: "Prisha Interior Solutions",
-    images: Array(13).fill("https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&h=600&fit=crop")
+    images: [
+      "/img/1.jpg",
+      "/img/2.jpg",
+      "/img/3.jpg",
+      "/img/4.jpg",
+      "/img/5.jpg",
+      "/img/6.jpg",
+      "/img/7.jpg",
+      "/img/8.jpg",
+      "/img/9.jpg",
+      "/img/10.jpg",
+      "/img/11.jpg",
+      "/img/12.jpg",
+      "/img/13.jpg",
+    ]
   },
   {
     name: "Vaishali Design Studio",
-    images: Array(7).fill("https://images.unsplash.com/photo-1618221469555-7f3ad97540d6?w=800&h=600&fit=crop")
+    images: [
+      "/img/v1.jpg",
+      "/img/v2.jpg",
+      "/img/v3.jpg",
+      "/img/v4.jpg",
+      "/img/v5.jpg",
+      "/img/v6.jpg",
+      "/img/v7.jpg",
+    ],
   }
 ];
 
@@ -128,7 +150,7 @@ export const Portfolio = () => {
 
                   <Button
                     variant="outline"
-                    className="w-full group/btn"
+                    className="w-full"
                     onClick={() => window.open(website.url, "_blank")}
                   >
                     Visit Website
